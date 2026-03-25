@@ -1,9 +1,10 @@
-Insights from Real Estate Dataset
+Key Insights
+1. Rental vs Sale Price Distribution
 
-1. Testing the first hypothesis: Do Rental listings have a more right-skewed price distribution than sell listings, driven by luxury furnished apartments pulling the mean up?
+No significant difference was found in the skewness of price distributions between rental and sale listings.
+Both distributions exhibit similar right-skewed behavior (p < 0.05), indicating comparable pricing structures, though absolute price levels differ.
 
-The answer: No. Because both the rental skew p-value and the sell skew p-value are less than 0.05. Likewise, their skewness figures show almost the same distribution, just different SAR (Sales to Active Ratio) values.
+2. Price Variability Across Cities
 
-2. Testing the second hypothesis: Do Price distributions in Riyadh and Jeddah are significantly wider (higher IQR) than in smaller cities, reflecting more market segmentation?
-
-The answer: Yes. The spread has become significantly wider in major cities. To prove this hypothesis, Levene’s test was used, and it returned a positive stats value with p < 0.05. It can be seen easily by the IQR (Interquartile Range) difference: in Major cities, it is twice as high as in Small cities. 
+Price distributions in major cities such as Riyadh and Jeddah show significantly higher variability compared to smaller cities.
+Levene’s test confirms this difference (p < 0.05), with Interquartile Range (IQR) values in major cities being substantially higher, reflecting stronger market segmentation and diversity in property pricing.
